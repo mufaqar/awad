@@ -4,10 +4,20 @@
 
 
 
+@font-face {
+    font-family: FormulaCondensed;
+    src: url('../public/fonts/FormulaCondensed-Bold.ttf');
+}
+
+
 body {
     margin: 0;
   }
   
+
+  h3,a{
+    font-family: FormulaCondensed;
+  }
   .navigation-wrapper {
     position: relative;
   }
