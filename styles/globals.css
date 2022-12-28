@@ -2,40 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @font-face {
-    font-family: FormulaCondensed;
-    src: url('../public/fonts/FormulaCondensed-Bold.ttf');
+  font-family: FormulaCondensed;
+  src: url('../public/fonts/FormulaCondensed-Bold.ttf');
 }
 @font-face {
   font-family: GroteskMedium;
   src: url('../public/fonts/GroteskMedium.ttf');
 }
 
-
 body {
-    margin: 0;
-  }  
+  margin: 0;
+}
 
- .FormulaCondensed{
-    font-family: FormulaCondensed;
-  }
+.FormulaCondensed {
+  font-family: FormulaCondensed;
+}
 
-  .GroteskMedium{
-    font-family: GroteskMedium;
-  }
+.GroteskMedium {
+  font-family: GroteskMedium;
+}
 
-  .navigation-wrapper {
-    position: relative;
-  }
-  
-  .dot text{
-    font-size: 3.5rem !important;
-    font-weight: bold !important;
-  }
-  
-  /* .dots {
+.navigation-wrapper {
+  position: relative;
+}
+
+.dot text {
+  font-size: 3.5rem !important;
+  font-weight: bold !important;
+  transform: translateY(5%);
+}
+
+/* .dots {
     display: flex;
     padding: 10px 0;
     justify-content: center;
@@ -80,13 +78,13 @@ body {
    */
 
 .CircularProgressbar .CircularProgressbar-text {
-  fill: #F0E6CC !important;
+  fill: #f0e6cc !important;
 }
 
-.CircularProgressbar .CircularProgressbar-path{
-  stroke: #F0E6CC !important;
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #f0e6cc !important;
   transition: stroke-dashoffset 8s ease !important;
 }
-.CircularProgressbar .CircularProgressbar-trail{
+.CircularProgressbar .CircularProgressbar-trail {
   stroke: #f0e6cc8c !important;
 }
