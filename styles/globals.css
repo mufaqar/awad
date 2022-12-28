@@ -88,5 +88,5 @@ body {
   transition: stroke-dashoffset 8s ease !important;
 }
 .CircularProgressbar .CircularProgressbar-trail{
-  stroke: #46464666 !important;
+  stroke: #f0e6cc8c !important;
 }
