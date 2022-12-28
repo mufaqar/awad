@@ -8,16 +8,24 @@
     font-family: FormulaCondensed;
     src: url('../public/fonts/FormulaCondensed-Bold.ttf');
 }
+@font-face {
+  font-family: GroteskMedium;
+  src: url('../public/fonts/GroteskMedium.ttf');
+}
 
 
 body {
     margin: 0;
-  }
-  
+  }  
 
-  h3,a{
+ .FormulaCondensed{
     font-family: FormulaCondensed;
   }
+
+  .GroteskMedium{
+    font-family: GroteskMedium;
+  }
+
   .navigation-wrapper {
     position: relative;
   }
