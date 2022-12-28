@@ -77,7 +77,7 @@ body {
 
 .CircularProgressbar .CircularProgressbar-path{
   stroke: #F0E6CC !important;
-  transition: stroke-dashoffset 7s ease !important;
+  transition: stroke-dashoffset 8s ease !important;
 }
 .CircularProgressbar .CircularProgressbar-trail{
   stroke: #46464666 !important;
