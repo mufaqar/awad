@@ -22,7 +22,12 @@ body {
     position: relative;
   }
   
-  .dots {
+  .dot text{
+    font-size: 3rem !important;
+    font-weight: bold !important;
+  }
+  
+  /* .dots {
     display: flex;
     padding: 10px 0;
     justify-content: center;
@@ -33,14 +38,16 @@ body {
     color: #F0E6CC;
     line-height: 0;
     font-weight: 700;
-    border-color: rgba(223, 23, 23, 0.863);
-    border: 2px solid;
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
+    display: flex;
     margin: 0 5px;
     padding: 5px;
     cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .dot:focus {
@@ -62,4 +69,16 @@ body {
     fill: #fff;
     cursor: pointer;
   }
-  
+   */
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #F0E6CC !important;
+}
+
+.CircularProgressbar .CircularProgressbar-path{
+  stroke: #F0E6CC !important;
+  transition: stroke-dashoffset 7s ease !important;
+}
+.CircularProgressbar .CircularProgressbar-trail{
+  stroke: #46464666 !important;
+}
