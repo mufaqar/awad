@@ -28,7 +28,7 @@ body {
 }
 
 .dot text {
-  font-size: 3.5rem !important;
+  font-size: 4rem !important;
   font-weight: bold !important;
   transform: translateY(5%);
 }
