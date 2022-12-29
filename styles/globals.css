@@ -12,7 +12,7 @@
 }
 
 :root {
-  --vh: 2.76px;
+  --vh: ;
 }
 
 body {
@@ -21,13 +21,6 @@ body {
 
 .h-screen-ios {
   height: calc(var(--vh, 1vh) * 100);
-}
-
-@supports (-webkit-touch-callout: none) {
-  .h-screen-ios {
-    /* for ios safari 15, safe-area-inset-bottom is 0, so a special fix apply here */
-    min-height: -webkit-fill-available;
-  }
 }
 
 .FormulaCondensed {
