@@ -11,6 +11,10 @@
   src: url('../public/fonts/GroteskMedium.ttf');
 }
 
+:root {
+  --vh: 2.76px;
+}
+
 body {
   margin: 0;
 }
