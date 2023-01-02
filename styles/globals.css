@@ -96,11 +96,11 @@ body {
    */
 
 .CircularProgressbar .CircularProgressbar-text {
-  fill: #f0e6cc ;
+  fill: #f0e6cc  !important;
 
 .CircularProgressbar .CircularProgressbar-path {
   stroke: #f0e6cc !important;
-  transition: stroke-dashoffset 8s ease ;
+  transition: stroke-dashoffset 8s ease !important ;
 }
 .CircularProgressbar .CircularProgressbar-trail {
   stroke: #f0e6cc8c !important;
