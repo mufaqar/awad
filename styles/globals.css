@@ -14,6 +14,8 @@ body {
   min-height: 100vh;
   min-height: fill-available;
   min-height: -webkit-fill-available;
+  min-height: -moz-available;
+  min-height: calc(-webkit-fill-available / 2);
 }
 html {
   height: fill-available;
@@ -104,3 +106,9 @@ body {
 .CircularProgressbar .CircularProgressbar-trail {
   stroke: #f0e6cc8c !important;
 }
+
+
+
+
+
+/* testPage */
