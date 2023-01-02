@@ -13,19 +13,25 @@ export default function Slider() {
   const [loopCount, setloopCount] = useState(1);
 
   const [sliderRef, instanceRef] = useKeenSlider({
-    initial: 0,
+    initial: 1,
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel);
+      // console.log(slider);
     },
     created() {
-      setLoaded(true);
+      //setLoaded(true);
     },
   });
 
   const handleVideo = (id) => {
     setActiveVideo(id);
-    console.log(id);
+    console.log(instanceRef.current);
+
+    //instanceRef.current?.next(id);
     instanceRef.current?.moveToIdx(id);
+
+    setCurrentSlide(id);
+    // instanceRef.current?.next(5);
   };
 
   useEffect(() => {
