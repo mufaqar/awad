@@ -10,9 +10,27 @@
   font-family: GroteskMedium;
   src: url('../public/fonts/GroteskMedium.ttf');
 }
+body {
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
+  min-height: -moz-available;
+  min-height: calc(-webkit-fill-available / 2);
+}
+html {
+  height: fill-available;
+  height: -webkit-fill-available;
+}
+:root {
+  --vh: ;
+}
 
 body {
   margin: 0;
+}
+
+.h-screen-ios {
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .FormulaCondensed {
@@ -87,3 +105,9 @@ body {
 .CircularProgressbar .CircularProgressbar-trail {
   stroke: #f0e6cc8c !important;
 }
+
+
+
+
+
+/* testPage */

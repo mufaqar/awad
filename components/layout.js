@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Layout({ children }) {
     return (
-        <main className="relative h-screen ">
+        <main className="relative h-screen h-screen-ios ">
             <div className="absolute z-20 flex justify-between w-auto h-screen overflow-hidden">
                 <div className="relative z-10 py-6 pl-4 md:flex-shrink-0">
                     <svg className="md:h-full h-[50vh] w-auto" viewBox="0 0 54 352" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,15 +11,13 @@ export default function Layout({ children }) {
                     </svg>
                 </div>
             </div>
-            <div className="relative">{children}</div>
-            <div className="absolute top-[5%] right-0">
-                <div className="md:pt-20 pt-14 pb-16 w-auto">
-                    <Link href="#"
-                        className="text-[#F0E6CC] GroteskMedium text-[4.26vw] md:text-[1.38vw] leading-[1.2] tracking-[-0.02em] font-medium transform rotate-90 flex "
-                    >
-                        info@xxxxxx.com
-                    </Link>
-                </div>
+            <Link href="mailto:info@abdullahawad.com" target="_blank" rel="nofollow"
+                className="absolute 2xl:top-[11rem] tracking-[1.5px] md:top-[10.2rem] top-[6rem] md:-right-10 -right-8 left-auto z-20 text-[#F0E6CC] FormulaCondensed md:text-[1.8rem] text-[1rem] transform rotate-90 flex "
+            >
+                info@abdullahawad.com
+            </Link>
+            <div className="w-screen h-screen overflow-hidden h-screen-ios">
+                {children}
             </div>
         </main>
     );
