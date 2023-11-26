@@ -16,7 +16,6 @@ export default function Slider() {
     initial: 1,
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel);
-      // console.log(slider);
     },
     created() {
       //setLoaded(true);
