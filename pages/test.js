@@ -2,7 +2,6 @@ import Link from "next/link";
 import { useState } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 
-
 const videosArr = [
   {
     video_url:"/assets/loop_1.mp4",
@@ -97,7 +96,7 @@ export default function Test() {
             onClick={() => handleChangeSlide(i)}
           >
             <CircularProgressbar
-              strokeWidth='20'
+              strokeWidth='40'
               key={i}
               className={
                 "dot w-7 md:h-[2rem] h-[1.09em]" + "active"
