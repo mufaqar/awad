@@ -12,7 +12,7 @@ const videosArr = [
   {
     video_url:"/assets/loop_2.mp4",
     title:"Arab Games",
-    sub_title:"I am Arabic",
+    sub_title:"I am Arabic and Urdu",
     title_link:"#",
   },
   {
