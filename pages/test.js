@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
-
 const videosArr = [
   {
     video_url:"/assets/loop_1.mp4",
